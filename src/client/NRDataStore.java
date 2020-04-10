@@ -190,10 +190,10 @@ class ChartSeriesData {
     }
 
     public LinkedList<Double> getXData() {
-        return xData;
+        return new LinkedList<>(xData);
     }
 
     public LinkedList<Double> getYData() {
-        return yData;
+        return new LinkedList<>(yData);
     }
 }
